@@ -71,8 +71,8 @@ lazy val regex = crossProject(JSPlatform, JVMPlatform)
   .settings(stdSettings("zio-lexer-regex"))
   .settings(
     libraryDependencies ++= Seq(
-      "dev.zio" %% "zio"          % zioVersion,
-      "dev.zio" %% "zio-streams"  % zioVersion
+      "dev.zio" %% "zio"         % zioVersion,
+      "dev.zio" %% "zio-streams" % zioVersion
     )
   )
 
